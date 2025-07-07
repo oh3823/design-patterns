@@ -1,12 +1,13 @@
-package adapter;
+package adapter._interface;
 
-import adapter.banner.Banner;
+import adapter.Banner;
+import adapter.Print;
 
-public class PrintBannerAdapterComposition implements Print {
+public class PrintBannerAdapter implements Print {
 
 	private final Banner banner;
 
-	public PrintBannerAdapterComposition(String string) {
+	public PrintBannerAdapter(String string) {
 		this.banner = new Banner(string);
 	}
 

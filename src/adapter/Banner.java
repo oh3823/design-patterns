@@ -1,4 +1,4 @@
-package adapter.banner;
+package adapter;
 
 public class Banner {
 

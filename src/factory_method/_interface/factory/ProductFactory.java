@@ -9,7 +9,7 @@ public interface ProductFactory {
 		registerProduct(product);
 		return product;
 	}
-	
+
 	void registerProduct(Product product);
 
 	Product createProduct(String owner);
